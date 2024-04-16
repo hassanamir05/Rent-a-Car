@@ -425,7 +425,7 @@ a {
 }
 .service-card3 {
   background-image: url(Images/service-image3.png);
-  border-image: fill 0 linear-gradient(#0001, #000) 10%;
+  border-image: fill 0 linear-gradient(#0001, #000);
   border-radius: 15px;
 }
 

@@ -6,24 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: rgba(237, 235, 235, 0.148);
-  scroll-behavior: smooth;
 }
-
 body::-webkit-scrollbar {
-  width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #9DD2F7;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
+  display: none;
 }
 
 .main {
@@ -433,18 +418,18 @@ a {
 }
 
 .service-card1 {
-  background-image: url(Images/service-image1.png);
+  background-image: url(/Images/service-image1.png);
   border-image: fill 0 linear-gradient(#0001, #000);
   border-radius: 15px;
 }
 .service-card2 {
-  background-image: url(Images/service-image2.png);
+  background-image: url(/Images/service-image2.png);
   border-image: fill 0 linear-gradient(#0001, #000);
   border-radius: 15px;
 }
 .service-card3 {
-  background-image: url(Images/service-image3.png);
-  border-image: fill 0 linear-gradient(#0001, #000);
+  background-image: url(/Images/service-image3.png);
+  border-image: fill 0 linear-gradient(#0001, #000) 10%;
   border-radius: 15px;
 }
 

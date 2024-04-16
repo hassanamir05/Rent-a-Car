@@ -414,17 +414,17 @@ a {
 }
 
 .service-card1 {
-  background-image: url(/Images/service-image1.png);
+  background-image: url(Images/service-image1.png);
   border-image: fill 0 linear-gradient(#0001, #000);
   border-radius: 15px;
 }
 .service-card2 {
-  background-image: url(/Images/service-image2.png);
+  background-image: url(Images/service-image2.png);
   border-image: fill 0 linear-gradient(#0001, #000);
   border-radius: 15px;
 }
 .service-card3 {
-  background-image: url(/Images/service-image3.png);
+  background-image: url(Images/service-image3.png);
   border-image: fill 0 linear-gradient(#0001, #000) 10%;
   border-radius: 15px;
 }

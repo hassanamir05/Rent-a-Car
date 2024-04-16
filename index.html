@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent-a-Ride</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">Rent-a-Ride</a>
+        <ul class="nav-links">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li>
+            <div class="nav-box">
+              <a href="#"
+                ><span class="icons"><i class="fa-solid fa-house"></i></span
+                >Home</a
+              >
+            </div>
+          </li>
+          <li>
+            <div class="nav-box">
+              <a href="#"
+                ><span class="icons"><i class="fa-solid fa-info" style="margin-right: 6px; margin-left: 7px;" ></i></span
+                >About us</a
+              >
+            </div>
+          </li>
+          <li>
+            <div class="nav-box">
+              <a href="#services"
+                ><span class="icons"><i class="fa-solid fa-globe"></i></i></span
+                >Services</a
+              >
+            </div>
+          </li>
+          <li>
+            <div class="nav-box">
+              <a href="#"
+                ><span class="icons"><i class="fa-solid fa-tag"></i></span
+                >Pricing</a
+              >
+            </div>
+          </li>
+          <li>
+            <button class="li-btn">Get Started</button>
+          </li>
+        </ul>
+
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+          <i class="uil uil-search search-icon"></i>
+          <input type="text" placeholder="Search here..." />
+        </div>
+      </nav>
+    <section class="main">
+      <div class="background-svg"></div>
+      <div class="mainContent">
+        <h1>Prime Spot for Vehicle Lease
+
+
+
+</h1>
+        <p>Find the ideal car rental tailored to your needs.</p>
+        <div class="inputs">
+          <div class="inp input1">
+            <h2><i class="fa-solid fa-tag"></i> City Destination</h2>
+            <select name="Where" id="Where">
+              <option value="Select">Select</option>
+              <option value="Location">Location 1</option>
+              <option value="Location">Location 2</option>
+              <option value="Location">Location 3</option>
+              <option value="Location">Location 4</option>
+              <option value="Location">Location 5</option>
+            </select>
+          </div>
+          <div class="inp input2">
+            <h2><i class="fa-solid fa-tag"></i> Pickup Location</h2>
+            <select name="Pickup" id="Pickup">
+              <option value="Select">Select</option>
+              <option value="Location">Location 1</option>
+              <option value="Location">Location 2</option>
+              <option value="Location">Location 3</option>
+              <option value="Location">Location 4</option>
+              <option value="Location">Location 5</option>
+            </select>
+          </div>
+          <div class="inp input3">
+            <h2><i class="fa-solid fa-tag"></i> Dropof Location</h2>
+            <select name="Dropof" id="Dropof">
+              <option value="Select">Select</option>
+              <option value="Location">Location 1</option>
+              <option value="Location">Location 2</option>
+              <option value="Location">Location 3</option>
+              <option value="Location">Location 4</option>
+              <option value="Location">Location 5</option>
+            </select>
+          </div>
+          <button type="submit"><i class="fa-solid fa-search"></i></button>
+        </div>
+        <img src="/Images/main.png" alt="image" />
+      </div>
+    </section>
+    <section class="most-popular">
+      <span
+        ><h1>Our  Popular Cars</h1>
+        <p></p
+      ></span>
+      <div class="cards">
+        <div class="big-card big-card1">
+          <div class="row1">
+            <span>Aston Martin</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/popular1.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="big-card big-card3">
+          <div class="row1">
+            <span>Range Rover</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/popular2.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="big-card big-card2">
+          <div class="row1">
+            <span>Aston Martin 2022</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/popular4.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="heading">Other Cars</h1>
+    <section class="other-cars">
+      <div class="cards">
+        <div class="small-card">
+          <div class="row1">
+            <span>Lexus RC 2021</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car4.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Civic 2022</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car1.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Lexus RC 2022</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car5.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Civic 2024</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car3.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Civic 2024</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car3.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Lexus RC 2021</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car4.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>BMW M6</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car2.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+        </div>
+        <div class="small-card">
+          <div class="row1">
+            <span>Civic 2022</span><span><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <img src="/Images/car1.png" alt="Car Image" />
+          <div class="row2">
+            <span><i class="fa-solid fa-gas-pump"></i> 10L</span
+            ><span><i class="fa-solid fa-gear"></i> Manual</span
+            ><span><i class="fa-solid fa-person"></i> 2 Person</span>
+          </div>
+          <div class="row3">
+            <span>449.99$/day</span>
+            <button>Rent Now</button>
+          </div>
+          </div>
+      </div>
+      <button class="li-btn">See More</button>
+    </section>
+    <h1 class="heading" style="width: 250px; font-size: 17px;margin-top: 35px;">Begin Voyage with Efficiency</h1>
+    <section class="services" id="services">
+      <div class="cards">
+      <div class="service-card service-card1">
+        <div class="text">
+        <h2>Unveling the latest auto motive</h2>
+        <a href="">Learn More <i class="fa-solid fa-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="service-card service-card2">
+        <div class="text">
+        <h2>Unveling the latest auto motive</h2>
+        <a href="">Learn More <i class="fa-solid fa-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="service-card service-card3">
+        <div class="text">
+        <h2>Unveling the latest auto motive</h2>
+        <a href="">Learn More <i class="fa-solid fa-circle-right"></i></a>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Info</h4>
+      <ul class="links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul class="links">
+        <li><a href="#">Available Cars</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">How it Works</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="links">
+        <li><a href="#">Phone: 123-456-7890</a></li>
+        <li><a href="#">Email: info@rentalcar.com</a></li>
+        <li><a href="#">Address: 123 Street, City, Country</a></li>
+        
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+        <ul class="links">
+       <li><button>
+        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a></button>
+        <button><a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a></button>
+        <button><a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a></button>
+        <button><a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a></button>
+      </li>
+      
+        </ul>
+  </div>
+</footer>
+
+
+  </body>
+</html>

@@ -6,6 +6,23 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: rgba(237, 235, 235, 0.148);
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+   background:#9DD2F7;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+   background:#9DD2F7;
 }
 .main {
   height: 100vh;

@@ -415,22 +415,18 @@ a {
   margin-bottom: 15px;
   margin: 25px;
   border-radius: 15px;
+  border-image: fill 0 linear-gradient(#0001, #000);
+  border-radius: 15px;
 }
 
 .service-card1 {
   background-image: url(/Images/service-image1.png);
-  border-image: fill 0 linear-gradient(#0001, #000);
-  border-radius: 15px;
 }
 .service-card2 {
   background-image: url(/Images/service-image2.png);
-  border-image: fill 0 linear-gradient(#0001, #000);
-  border-radius: 15px;
 }
 .service-card3 {
   background-image: url(/Images/service-image3.png);
-  border-image: fill 0 linear-gradient(#0001, #000) 10%;
-  border-radius: 15px;
 }
 
 .service-card h2,
